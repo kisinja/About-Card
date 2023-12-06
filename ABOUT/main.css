@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: #F3FAFB;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+    padding: 30px;
+    border-radius: 20px;
+    background: #fff;
+    width: 400px;
+    height: 540px;
+    margin: 0 auto;
+    align-items: first baseline;
+}
+
+.container h2{
+    color: #262938;
+    margin-bottom: 15px;
+}
+
+.container p{
+    color: #262938;
+    margin-bottom: 30px;
+}
+
+.import{
+    padding: 8px;
+    color: #727CD5;
+    outline: 1px solid #727CD5;
+    position: absolute;
+    top: 63px;
+    right: 20px;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.import:hover{
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.input-container{
+    width: 100%;
+    position: relative;
+}
+
+.container1{
+    margin-bottom: 30px;
+}
+
+.input1{
+    padding-left: 30px;
+    font-size: 1.05rem;
+}
+
+.input2{
+    padding-left: 10px;
+    font-size: 17px;
+    color: #262938;
+}
+
+.container2{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    top: 14px;
+    left: 5px;
+    font-size: 17px;
+    color: gray;
+}
+
+i{
+    cursor: pointer;
+}
+
+.fa-copy{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    font-size: 20px;
+    color: #262938;
+}
+
+input{
+    width: 100%;
+    padding: 20px;
+    padding-left: 35px;
+    height: 40px;
+    border: none;
+    outline: 1px solid gray;
+    border-radius: 5px;
+}
+
+.member{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 35px;
+}
+
+.member p{
+    padding-top: 25px;
+    margin-right: 85px;
+    color: #262938;
+}
+
+.member a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background: #262938;
+}
+
+.copied{
+    padding: 10px;
+    background-color: #fff;
+    width: 250px;
+    height: 50px;
+    padding-top: 15px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    transition: all .1s;
+    position: relative;
+}
+
+.hide{
+    margin-top: -50px;
+}
+
+.fa-check{
+    color: green;
+}
+
+.fa-xmark{
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    color: red;
+}
